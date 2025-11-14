@@ -20,7 +20,7 @@ header {
 }
 .container {
   max-width: 1200px;
-  width: 90%;
+  width: 85%;
   margin: 0 auto;
 }
 .logo img {
@@ -55,5 +55,48 @@ nav a {
 
 nav a:hover {
   color: black;
-  text-decoration: underline 1px solid black;
+  text-decoration: underline 1.5px solid black;
 }
+.header-content {
+  display: flex;
+  align-items: center;
+  /* justify-content: space-between; */
+  justify-content: space-around;
+}
+.col {
+  flex-basis: 44%;
+  min-width: 300px;
+}
+.hero-image img {
+  width: 100%;
+  padding: 50px 0;
+}
+.hero-text h1 {
+  line-height: 55px;
+  font-size: 45px;
+  margin-bottom: 25px;
+}
+.hero-text p {
+  color: #777;
+  font-size: 14px;
+  font-weight: 300;
+  padding: 0;
+  line-height: 22px;
+}
+.hero-text a {
+  display: inline-block;
+  background-color: #ff523b;
+  color: #fff;
+  padding: 8px 30px;
+  margin: 10px 0;
+  border-radius: 30px;
+  text-decoration: none;
+  transition: 0.5s;
+  border: 2px solid transparent;
+}
+.hero-text a:hover {
+  background-color: transparent;
+  border: 2px solid #ff523b;
+  color: #000;
+}
+/* ____________________________________ */
