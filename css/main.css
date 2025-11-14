@@ -102,6 +102,7 @@ nav a:hover {
   color: #000;
 }
 /* ____________________________________ */
+/* ____________________________________ */
 
 .categories {
   margin: 70px auto;
@@ -122,10 +123,87 @@ nav a:hover {
   position: relative;
   overflow: hidden;
   border-radius: 10px;
-  transition: transform 0.5s;
 }
 
 .category-col img {
   width: 100%;
   display: inline-block;
 }
+/* ____________________________________ */
+.small-container {
+  max-width: 1200px;
+  width: 65%;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+.title {
+  text-align: center;
+  margin: 70px auto 80px;
+  position: relative;
+  line-height: 60px;
+  color: #555;
+  font-size: 32px;
+  font-weight: 600;
+}
+
+.title::after {
+  content: "";
+  background: #ff523b;
+  width: 80px;
+  height: 5px;
+  border-radius: 5px;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.featured-products-row {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+}
+
+.featured-products-col {
+  flex-basis: 23.5%;
+  min-width: 150px;
+  margin-bottom: 50px;
+  padding: 5px;
+
+  transition: transform 0.5s;
+}
+
+.featured-products-col:hover {
+  transform: translateY(-5px);
+}
+
+.featured-products-col img {
+  width: 100%;
+  display: inline-block;
+  margin-bottom: 10px;
+}
+
+.featured-products-col h3 {
+  color: #555;
+  font-weight: normal;
+  font-size: 16px;
+  margin-bottom: 5px;
+  text-align: left;
+}
+.featured-products-col .icon {
+  text-align: left;
+  margin-bottom: 10px;
+  line-height: 1;
+}
+.featured-products-col .icon i {
+  font-size: 14px;
+  color: #ff523b;
+}
+.featured-products-col span {
+  font-size: 14px;
+  color: #000;
+  display: block;
+  text-align: left;
+}
+/* ____________________________________ */
