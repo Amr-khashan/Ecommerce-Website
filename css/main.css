@@ -5,6 +5,8 @@
   font-family: sans-serif;
 }
 /* ____________________________________ */
+/* ____________________________________ */
+
 header {
   height: 100vh;
   width: 100%;
@@ -100,3 +102,30 @@ nav a:hover {
   color: #000;
 }
 /* ____________________________________ */
+
+.categories {
+  margin: 70px auto;
+  max-width: 1200px;
+  width: 65%;
+}
+
+.category-row {
+  display: flex;
+  justify-content: space-between;
+  gap: 15px;
+}
+
+.category-col {
+  flex-basis: 32%;
+  min-width: 250px;
+  margin-bottom: 30px;
+  position: relative;
+  overflow: hidden;
+  border-radius: 10px;
+  transition: transform 0.5s;
+}
+
+.category-col img {
+  width: 100%;
+  display: inline-block;
+}
