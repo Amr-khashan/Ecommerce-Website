@@ -217,3 +217,71 @@ nav a:hover {
 }
 /* ____________________________________ */
 /* ____________________________________ */
+.Offer-Section {
+  background: radial-gradient(
+    ellipse at center,
+    white 0%,
+    #ffffffb6 20%,
+    #ffc0cbbc 50%,
+    #ffc0cbbc 100%
+  );
+  padding: 30px 0;
+  margin-top: 80px;
+  margin-bottom: 80px;
+  width: 100%;
+}
+
+.container-Offer {
+  max-width: 1200px;
+  width: 85%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  text-align: left;
+}
+
+.Offer-col {
+  flex-basis: 44%;
+  min-width: 300px;
+}
+.Offer-col img {
+  padding: 50px;
+  width: 100%;
+}
+
+.Offer-col h2 {
+  margin: 10px 0 25px 0;
+  font-size: 45px;
+  font-weight: 800;
+  color: #000;
+  line-height: 1.1;
+}
+
+.Offer-col p {
+  color: #777;
+  font-size: 14px;
+  font-weight: 300;
+  padding: 0;
+  line-height: 22px;
+  margin-bottom: 20px;
+}
+
+.Offer-btn {
+  display: inline-block;
+  background-color: #ff523b;
+  color: #fff;
+  padding: 8px 30px;
+  margin: 10px 0;
+  border-radius: 30px;
+  text-decoration: none;
+  transition: 0.5s;
+  border: 2px solid transparent;
+}
+
+.Offer-btn:hover {
+  background-color: transparent;
+  border: 2px solid #ff523b;
+  color: #000;
+}
