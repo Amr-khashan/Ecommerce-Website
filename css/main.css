@@ -215,7 +215,6 @@ nav a:hover {
   transform: translateY(-5px);
 }
 /* ____________________________________ */
-/* ____________________________________ */
 .Offer-Section {
   background: radial-gradient(
     ellipse at center,
@@ -325,4 +324,29 @@ nav a:hover {
 .testimonial-col i {
   color: #ff523b;
   margin-top: 10px;
+}
+/* ____________________________________ */
+.Brands {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background: #f7f7f7;
+}
+.small-container6 {
+  max-width: 1080px;
+  width: 75%;
+  margin: 0 auto;
+}
+.brand-row {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+
+.brand-row img {
+  width: 100%;
+  display: block;
+  filter: grayscale(100%);
+}
+.brand-row img:hover {
+  filter: grayscale(0%);
 }
