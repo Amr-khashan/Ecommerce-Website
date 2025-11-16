@@ -62,7 +62,6 @@ nav a:hover {
 .header-content {
   display: flex;
   align-items: center;
-  /* justify-content: space-between; */
   justify-content: space-around;
 }
 .col {
@@ -112,7 +111,7 @@ nav a:hover {
 
 .category-row {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   gap: 15px;
 }
 
@@ -132,7 +131,7 @@ nav a:hover {
 /* ____________________________________ */
 .small-container {
   max-width: 1200px;
-  width: 65%;
+  width: 70%;
   margin: 0 auto;
   padding: 0 10px;
 }
@@ -284,4 +283,46 @@ nav a:hover {
   background-color: transparent;
   border: 2px solid #ff523b;
   color: #000;
+}
+/* ____________________________________ */
+.small-container5 {
+  max-width: 1080px;
+  width: 70%;
+  margin: auto;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+.testimonial {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background: #f7f7f7;
+}
+
+.testimonial-row {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+.testimonial-col {
+  text-align: center;
+  padding: 40px 20px;
+  background: #fff;
+  box-shadow: 0 0 20px 0px #0000001a;
+  flex-basis: 30%;
+  min-width: 250px;
+
+  border-radius: 5px;
+}
+.testimonial-col img {
+  width: 50px;
+  margin-top: 20px;
+  border-radius: 50%;
+}
+.testimonial-col > i:first-child {
+  font-size: 40px;
+}
+.testimonial-col i {
+  color: #ff523b;
+  margin-top: 10px;
 }
